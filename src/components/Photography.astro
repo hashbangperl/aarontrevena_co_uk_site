@@ -19,6 +19,16 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="lg:col-span-8 space-y-8">
+        <!-- Popup -->
+      	<div id="image-modal-popup">
+	<div id="image-modal-container">
+		<div id="image-modal-dialog">
+			<img id="image-modal-image" src=""></img>
+			<div id="image-modal-loader"></div>
+			<div id="image-modal-close-button"></div>
+		</div>
+		</div>
+	 </div>
         <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
           <b>{siteConfig.photography.header}</b><br/><br/>
 	  {siteConfig.photography.body}
@@ -33,7 +43,7 @@ import { siteConfig } from "../config";
 	        <!--.carousel__card-->
        	        <div class={`carousel__card ${photo.active ? " active" : ""} `}>
                   <div>
-            	    <img alt={photo.alt} src={photo.url} />
+            	    <img alt={photo.alt} src={photo.url} class="image-popup" />
         	  </div>
 		  <div>
 		   <p> {photo.title } </p>
