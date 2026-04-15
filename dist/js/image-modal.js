@@ -5,9 +5,10 @@ window.onload = function ()
 	//******************************************************
 	$(".image-popup").on({
 		'click': function() {
-			url=$(this).attr("src");
-			console.log("image-popup clicked "+url);
-			loadImageModal(url);
+		    url=$(this).attr("src");
+		    full_url = url.replace("/thumbs/","/");
+		    console.log("image-popup clicked thumb : " + url + "full url: " + full_url );
+		    loadImageModal(full_url);
 		}
 	});
 	
