@@ -1,13 +1,14 @@
 export const siteConfig = {
   name: "Aaron J Trevena",
-  title: "Technical Leader | Principal Engineer | Photographer | Triathlon/Surflifesaving Athlete | Performing Arts Chaperone",
+  title: "Technical Leader | Principal Engineer | Photography | Triathlon | Surflifesaving",
   description: "Website of Aaron Trevena",
   accentColor: "#1d4ed8",
   social: {
     email: "aaron@aarontrevena.co.uk",
     linkedin: "https://www.linkedin.com/in/aarontrevena/",
     github: "https://github.com/hashbangperl",
-    instagram: "https://www.instagram.com/myactionpix_aaron/"
+    instagram: "https://www.instagram.com/myactionpix_aaron/",
+    coderwall: "https://coderwall.com/hashbangperl"
   },
   aboutMe: {
     heading: "I'm an experienced technical leader with experience in scaling both projects and teams, from hands-on leadership of small teams to workforce planning, budgeting and leading engineering for a division with multiple teams on multiple platforms. Experienced system architect and engineer, specialising in high traffic and high availability Internet applications.",
@@ -107,140 +108,140 @@ export const siteConfig = {
   photography:
     {
       header: "I've been shooting sports, performing arts, nature and landscapes for about 15 years, including as official photographer for Surf Lifesaving GB",
-      body: "Highlights of my photography include having a picture in Cornwall Living magazine, shooting my daughter taking her first open national medal at the GB Surflifesaving Champsionships.",
+      body: "Highlights of my photography include having a picture in Cornwall Living magazine and shooting my daughter taking her first open national medal at the GB Surflifesaving Champsionships.",
       photos: [
         {
     	title: "Flags Dive",
-    	url: "/public/gallery/AaronTrevena_FlagsDive.JPG",
+    	url: "/gallery/AaronTrevena_FlagsDive.JPG",
     	alt: "Flags Dive",
   	},
   	{
     	title: "Youth Obs Swim",
-    	url: "/public/gallery/AaronTrevena_YouthObsSwim.jpg",
+    	url: "/gallery/AaronTrevena_YouthObsSwim.jpg",
     	alt: "Youth Obs Swim",
   	},
   	{
     	title: "Chess The Muscial",
-    	url: "/public/gallery/chess_pair.jpg",
+    	url: "/gallery/chess_pair.jpg",
     	alt: "Chess The Muscial",
   	},
   	{
     	title: "Gwithian sunset board session",
-    	url: "/public/gallery/DSC_0217.jpg",
+    	url: "/gallery/DSC_0217.jpg",
     	alt: "backlit lifesavers at Gwithian for sunset board session",
   	},
   	{
     	title: "Fisheye Skate Ramp Truro",
-    	url: "/public/gallery/DSC_0254.jpg",
+    	url: "/gallery/DSC_0254.jpg",
     	alt: "Fisheye Skate Ramp Truro",
   	},
   	{
     	title: "Youth Pool Tube",
-    	url: "/public/gallery/AaronTrevena_YouthPoolTube.jpg",
+    	url: "/gallery/AaronTrevena_YouthPoolTube.jpg",
     	alt: "Youth Pool Tube",
   	},
   	{
     	title: "Youth Surf Swim",
-    	url: "/public/gallery/AaronTrevena_YouthSurfSwim.JPG",
+    	url: "/gallery/AaronTrevena_YouthSurfSwim.JPG",
     	alt: "Youth Surf Swim",
   	},
   	{
     	title: "Rail Skate Truro",
-    	url: "/public/gallery/DSC_0259bw.jpg",
+    	url: "/gallery/DSC_0259bw.jpg",
     	alt: "skater sliding on rail at truro skatepark",
   	},
 
   	{
     	title: "Youth Tube Start",
-    	url: "/public/gallery/AaronTrevena_YouthTubeStart.JPG",
+    	url: "/gallery/AaronTrevena_YouthTubeStart.JPG",
     	alt: "Youth Tube Start",
   	},
   	{
     	title: "Youth Tube Water",
-    	url: "/public/gallery/AaronTrevena_YouthTubeWater.JPG",
+    	url: "/gallery/AaronTrevena_YouthTubeWater.JPG",
     	alt: "Youth Tube Water",
   	},
 
   	{
     	title: "3 Daft Monkeys",
-    	url: "/public/gallery/DSC_0338.JPG",
+    	url: "/gallery/DSC_0338.JPG",
     	alt: "Vocal/Guitar and fiddle players in black and white",
   	},
   	{
     	title: "Flags Tussle",
-    	url: "/public/gallery/AaronTrevena_FlagsTussle.JPG",
+    	url: "/gallery/AaronTrevena_FlagsTussle.JPG",
     	alt: "Flags Tussle",
   	},
   	{
     	title: "Chess the Musical",
-    	url: "/public/gallery/DSC_0401.JPG",
+    	url: "/gallery/DSC_0401.JPG",
     	alt: "Row of singers at performance of Chess the Musical",
   	},
   	{
     	title: "Surfski at Fistral",
-    	url: "/public/gallery/DSC_0422.JPG",
+    	url: "/gallery/DSC_0422.JPG",
     	alt: "2 Surfski athletes paddling out over surf at Fistral Beach",
   	},
   	{
     	title: "3 Daft Monkeys",
-    	url: "/public/gallery/DSC_0425.jpg",
+    	url: "/gallery/DSC_0425.jpg",
     	alt: "Guitar & Bass player",
   	},
 
   	{
     	title: "Open Board Race",
-    	url: "/public/gallery/AaronTrevena_OpenBoardRace.JPG",
+    	url: "/gallery/AaronTrevena_OpenBoardRace.JPG",
     	alt: "Open Board Race",
   	},
   	{
 	title: "3 Daft Monkeys",
-    	url: "/public/gallery/DSC_0441_edit2_filtered.jpg",
+    	url: "/gallery/DSC_0441_edit2_filtered.jpg",
     	alt: "Vocal/Guitarist on stage",
   	},
   	{
     	title: "Wistman's wood",
-    	url: "/public/gallery/DSC_0815.jpg",
+    	url: "/gallery/DSC_0815.jpg",
     	alt: "Gnarly trees at Wistmans wood",
   	},
   	{
     	title: "Gyllyngvase nipper lifesavers",
-    	url: "/public/gallery/DSC_0862.jpg",
+    	url: "/gallery/DSC_0862.jpg",
     	alt: "Gyllyngvase nipper lifesavers",
   	},
   	{
     	title: "Castle to Castle",
-    	url: "/public/gallery/DSC_1200.JPG",
+    	url: "/gallery/DSC_1200.JPG",
     	alt: "Swimmers and lifeguards on Castle to Castle swim",
   	},
   	{
     	title: "Jason Thomas Performing Arts",
-    	url: "/public/gallery/DSC_1704.jpg",
+    	url: "/gallery/DSC_1704.jpg",
     	alt: "Musical Theatre show, young dancers",
   	},
 	{
     	title: "Open Ski Race",
-    	url: "/public/gallery/AaronTrevena_OpenSkiRace.JPG",
+    	url: "/gallery/AaronTrevena_OpenSkiRace.JPG",
     	alt: "Open Ski Race",
   	},
 	{
     	title: "Laddock Time Trial",
-    	url: "/public/gallery/DSC_2059ccrop.jpg",
+    	url: "/gallery/DSC_2059ccrop.jpg",
     	alt: "Cyclist in aero tuck on Laddock Time Trial",
   	},
   	{
     	title: "Youth Double Ski",
-    	url: "/public/gallery/AaronTrevena_YouthDoubleSki.JPG",
+    	url: "/gallery/AaronTrevena_YouthDoubleSki.JPG",
     	alt: "Youth Double Ski",
   	},
   	{
     	title: "St Piran at Redditch Tour Series Crit race",
-    	url: "/public/gallery/DSC_4848.png",
+    	url: "/gallery/DSC_4848.png",
     	alt: "St Piran at Redditch Tour Series Crit race",
   	},
 
   	{
     	title: "Gylly SurfSki",
-    	url: "/public/gallery/DSC_33501.jpg",
+    	url: "/gallery/DSC_33501.jpg",
     	alt: "Surf ski athletes training at gylly being passed by a fishing boat",
   	},
       ]
