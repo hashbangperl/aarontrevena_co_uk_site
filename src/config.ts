@@ -113,135 +113,161 @@ export const siteConfig = {
         {
     	title: "Flags Dive",
     	url: "/gallery/AaronTrevena_FlagsDive.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_FlagsDive.JPG",
     	alt: "Flags Dive",
   	},
   	{
     	title: "Youth Obs Swim",
     	url: "/gallery/AaronTrevena_YouthObsSwim.jpg",
+	thumb: "/gallery/thumbs/AaronTrevena_YouthObsSwim.jpg",
     	alt: "Youth Obs Swim",
   	},
   	{
     	title: "Chess The Muscial",
     	url: "/gallery/chess_pair.jpg",
+	thumb: "/gallery/thumbs/chess_pair.jpg",
     	alt: "Chess The Muscial",
   	},
   	{
     	title: "Gwithian sunset board session",
     	url: "/gallery/DSC_0217.jpg",
+	thumb: "/gallery/thumbs/DSC_0217.jpg",
     	alt: "backlit lifesavers at Gwithian for sunset board session",
   	},
   	{
     	title: "Fisheye Skate Ramp Truro",
     	url: "/gallery/DSC_0254.jpg",
+	thumb: "/gallery/thumbs/DSC_0254.jpg",
     	alt: "Fisheye Skate Ramp Truro",
   	},
   	{
     	title: "Youth Pool Tube",
     	url: "/gallery/AaronTrevena_YouthPoolTube.jpg",
+	thumb: "/gallery/thumbs/AaronTrevena_YouthPoolTube.jpg",
     	alt: "Youth Pool Tube",
   	},
   	{
     	title: "Youth Surf Swim",
     	url: "/gallery/AaronTrevena_YouthSurfSwim.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_YouthSurfSwim.JPG",
     	alt: "Youth Surf Swim",
   	},
   	{
     	title: "Rail Skate Truro",
     	url: "/gallery/DSC_0259bw.jpg",
+	thumb: "/gallery/thumbs/DSC_0259bw.jpg",
     	alt: "skater sliding on rail at truro skatepark",
   	},
 
   	{
     	title: "Youth Tube Start",
     	url: "/gallery/AaronTrevena_YouthTubeStart.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_YouthTubeStart.JPG",
     	alt: "Youth Tube Start",
   	},
   	{
     	title: "Youth Tube Water",
     	url: "/gallery/AaronTrevena_YouthTubeWater.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_YouthTubeWater.JPG",
     	alt: "Youth Tube Water",
   	},
 
   	{
     	title: "3 Daft Monkeys",
     	url: "/gallery/DSC_0338.JPG",
+	thumb: "/gallery/thumbs/DSC_0338.JPG",
     	alt: "Vocal/Guitar and fiddle players in black and white",
   	},
   	{
     	title: "Flags Tussle",
     	url: "/gallery/AaronTrevena_FlagsTussle.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_FlagsTussle.JPG",
     	alt: "Flags Tussle",
   	},
   	{
     	title: "Chess the Musical",
     	url: "/gallery/DSC_0401.JPG",
+	thumb: "/gallery/thumbs/DSC_0401.JPG",
     	alt: "Row of singers at performance of Chess the Musical",
   	},
   	{
     	title: "Surfski at Fistral",
     	url: "/gallery/DSC_0422.JPG",
+	thumb: "/gallery/thumbs/DSC_0422.JPG",
     	alt: "2 Surfski athletes paddling out over surf at Fistral Beach",
   	},
   	{
     	title: "3 Daft Monkeys",
     	url: "/gallery/DSC_0425.jpg",
+	thumb: "/gallery/thumbs/DSC_0425.jpg",
     	alt: "Guitar & Bass player",
   	},
 
   	{
     	title: "Open Board Race",
     	url: "/gallery/AaronTrevena_OpenBoardRace.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_OpenBoardRace.JPG",
     	alt: "Open Board Race",
   	},
   	{
 	title: "3 Daft Monkeys",
     	url: "/gallery/DSC_0441_edit2_filtered.jpg",
+	thumb: "/gallery/thumbs/DSC_0441_edit2_filtered.jpg",
     	alt: "Vocal/Guitarist on stage",
   	},
   	{
     	title: "Wistman's wood",
     	url: "/gallery/DSC_0815.jpg",
+	thumb: "/gallery/thumbs/DSC_0815.jpg",
     	alt: "Gnarly trees at Wistmans wood",
   	},
   	{
     	title: "Gyllyngvase nipper lifesavers",
     	url: "/gallery/DSC_0862.jpg",
+	thumb: "/gallery/thumbs/DSC_0862.jpg",
     	alt: "Gyllyngvase nipper lifesavers",
   	},
   	{
     	title: "Castle to Castle",
     	url: "/gallery/DSC_1200.JPG",
+	thumb: "/gallery/thumbs/DSC_1200.JPG",
     	alt: "Swimmers and lifeguards on Castle to Castle swim",
   	},
   	{
     	title: "Jason Thomas Performing Arts",
     	url: "/gallery/DSC_1704.jpg",
+	thumb: "/gallery/thumbs/DSC_1704.jpg",
     	alt: "Musical Theatre show, young dancers",
   	},
 	{
     	title: "Open Ski Race",
     	url: "/gallery/AaronTrevena_OpenSkiRace.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_OpenSkiRace.JPG",
     	alt: "Open Ski Race",
   	},
 	{
     	title: "Laddock Time Trial",
     	url: "/gallery/DSC_2059ccrop.jpg",
+	thumb: "/gallery/thumbs/DSC_2059ccrop.jpg",
     	alt: "Cyclist in aero tuck on Laddock Time Trial",
   	},
   	{
     	title: "Youth Double Ski",
     	url: "/gallery/AaronTrevena_YouthDoubleSki.JPG",
+	thumb: "/gallery/thumbs/AaronTrevena_YouthDoubleSki.JPG",
     	alt: "Youth Double Ski",
   	},
   	{
     	title: "St Piran at Redditch Tour Series Crit race",
     	url: "/gallery/DSC_4848.png",
+	thumb: "/gallery/thumbs/DSC_4848.png",
     	alt: "St Piran at Redditch Tour Series Crit race",
   	},
 
   	{
     	title: "Gylly SurfSki",
     	url: "/gallery/DSC_33501.jpg",
+	thumb: "/gallery/thumbs/DSC_33501.jpg",
     	alt: "Surf ski athletes training at gylly being passed by a fishing boat",
   	},
       ]
