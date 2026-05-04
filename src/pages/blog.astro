@@ -22,7 +22,6 @@ import "../styles/global.css";
     <title>A blog shaped set of posts from other sources</title>
   </head>
   <body>
-    <script type="text/javascript" src="/js/blogtoots.js"></script>
     <Header />
     <section>
     <section id="about" class="p-8 sm:p-12 md:p-16 lg:p-24">
@@ -52,7 +51,7 @@ import "../styles/global.css";
         </div>
         </div>
         <script>
-        document.addEventListener('DOMContentLoaded', init, false);
+        document.addEventListener('DOMContentLoaded', renderPageToots(1), false);
         </script>
         <template id="tootDisplay">
         <div class="group relative toot-blockquote">
@@ -66,8 +65,29 @@ import "../styles/global.css";
         </div>
         <p>&nbsp;</p>        
         </template>
+        <div id="blog-pagination" class="mt-6 flex items-center gap-4">
+        <button
+          id="prevPage"
+          type="button"
+          class="px-4 py-2 rounded border border-gray-300 text-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled
+        >
+          Prev
+        </button>
+        <p id="pageInfo" class="text-sm text-gray-600">Page 1 of 1</p>
+        <button
+          id="nextPage"
+          type="button"
+          class="px-4 py-2 rounded border border-gray-300 text-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled
+        >
+          Next
+        </button>
+      </div>
 	  </div>
     </section>
     <Footer />
+    <script type="text/javascript" src="/js/blogtoots.js"></script>
   </body>
+
 </html>
