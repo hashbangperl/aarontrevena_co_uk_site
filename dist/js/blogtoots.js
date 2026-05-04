@@ -10,6 +10,7 @@ let formatter = new Intl.DateTimeFormat('en-UK', {
 const pageSize = 4;
 let currentPage = 1;
 let allToots = [];
+let totalPages = 1;
 const prevBtn = document.querySelector('#prevPage');
 const nextBtn = document.querySelector('#nextPage');
 const pageInfo = document.querySelector('#pageInfo');
@@ -22,6 +23,7 @@ async function getRecentToots(newPage) {
   if (newPage != currentPage) {
     let $oldtoots = document.querySelector('#blog');
     [...$oldtoots.querySelectorAll('.toot-blockquote')].forEach((el) => el.remove());
+    [...$oldtoots.querySelectorAll('#blank-gap')].forEach((el) => el.remove());
   }
   currentPage = newPage;
 
@@ -44,7 +46,7 @@ async function getRecentToots(newPage) {
       .map((c) => c.textContent?.trim().toLowerCase());
     return categories.includes("blogpost");
   });
-  if (currentPage + pageSize > blogItems.length) {
+  if (currentPage - 1 + pageSize > blogItems.length) {
     console.log(`nothing for this page :  ${currentPage} / offset : ${offset} / pageSize : ${pageSize}`);
     return [];
   }
@@ -65,10 +67,8 @@ async function getRecentToots(newPage) {
     }
   );
 
-  const totalPages = Math.ceil(blogItems.length / pageSize) || 1;
+  totalPages = Math.ceil(blogItems.length / pageSize) || 1;
   pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-  prevBtn.disabled = currentPage === 1;
-  nextBtn.disabled = currentPage === totalPages;
 
   return toots;
 }
@@ -99,6 +99,28 @@ async function renderPageToots(newPage) {
 
     $status.innerHTML = '';
 
-    prevBtn.addEventListener('click', () => renderPageToots(currentPage - 1));
-    nextBtn.addEventListener('click', () => renderPageToots(currentPage + 1));
+    if ( currentPage === 1) {
+      prevBtn.disabled = true;
+      nextBtn.removeEventListener('click',  prevPage );
+    }
+    else {
+      prevBtn.addEventListener('click', prevPage );
+      prevBtn.disabled = false;
+    }
+    if (currentPage === totalPages) {
+      nextBtn.disabled = true;
+      nextBtn.removeEventListener('click',  nextPage );
+    }
+    else {
+      nextBtn.disabled = false;
+      nextBtn.addEventListener('click',  nextPage );
+    } 
+}
+
+function nextPage() {
+  renderPageToots(currentPage + 1);
+}
+
+function prevPage() {
+  renderPageToots(currentPage - 1);
 }
